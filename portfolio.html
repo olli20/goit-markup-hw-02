@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="uk">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,28 +8,34 @@
 
     <!-- Підключення стилів -->
     <link rel="stylesheet" href="./css/styles.css">
-</head>
 
+    <!-- Підключення шрифтів -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
 <body>
 
-    <!-- Шапка -->
+<!-- Шапка -->
     <header>
         <nav>
-            <a href="./index.html">Web<span>Studio</span></a>
-            <ul>
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="./portfolio.html">Портфоліо</a></li>
-                <li><a href="./contacts.html">Контакти</a></li>
+            <a href="./index.html" class="logo">Web<span class="brand-color">Studio</span></a>
+
+            <ul class="site-nav list">
+                <li><a href="./index.html" class="link">Студія</a></li>
+                <li><a href="./portfolio.html"  class="curent">Портфоліо</a></li>
+                <li><a href="./contacts.html" class="link">Контакти</a></li>
             </ul>
         </nav>
 
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="site-auth list">
+            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
     </header>
 
-    <!-- Основний контент -->
+<!-- Основний контент -->
     <main>
         <section>
             <h1>Наші проекти</h1>
@@ -39,7 +44,7 @@
 
             <nav class="filter">
                 <ul class="list">
-                    <li><button type="button" class="active">Всі</button></li>
+                    <li><button type="button" class="curent">Всі</button></li>
                     <li><button type="button">Веб-сайти</button></li>
                     <li><button type="button">Додатки</button></li>
                     <li><button type="button">Дизайн</button></li>
@@ -51,66 +56,66 @@
             
                 <h2>Всі проекти</h2>
 
-                <ul>
+                <ul class="list">
                     <li>
-                        <a href="">
-                            <img src="./images/project-01.jpg" alt="" width="370">
+                        <a href="" class="link">
+                            <img src="./images/project-01.jpg" alt="Сайт Технокряк на екрані ноутбука" width="370">
                             <h3>Технокряк</h3>
                             <p>Веб-сайт</p>
                         </a>
                     </li> 
                     <li>
                         <a href="">
-                            <img src="./images/project-02.jpg" alt="" width="370">
+                            <img src="./images/project-02.jpg" alt="Постер із зображенням двох баскетболістів у грі" width="370">
                             <h3>Постер New Orlean vs Golden Star</h3>
                             <p>Дизайн</p>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="./images/project-03.jpg" alt="" width="370">
+                            <img src="./images/project-03.jpg" alt="Логотип ресторана Seafood" width="370">
                             <h3>Ресторан Seafood</h3>
                             <p>Додаток</p>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="./images/project-04.jpg" alt="" width="370">
+                            <img src="./images/project-04.jpg" alt="Фотографія навушників" width="370">
                             <h3>Проект Prime</h3>
                             <p>Маркетинг</p>
                         </a>
                     </li>
                     <li>
-                        <a href="./images/project-05.jpg">
-                            <img src="" alt="" width="370">
+                        <a href="">
+                            <img src="./images/project-05.jpg" alt="Дві коробки" width="370">
                             <h3>Проект Boxes</h3>
                             <p>Додаток</p>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="./images/project-06.jpg" alt="" width="370">
+                            <img src="./images/project-06.jpg" alt="Монітор з відкритим сайтом" width="370">
                             <h3>Inspiration has no Borders</h3>
                             <p>Веб-сайт</p>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="./images/project-07.jpg" alt="" width="370">
+                            <img src="./images/project-07.jpg" alt="Розгорт буклета Limited Edition" width="370">
                             <h3>Видання Limited Edition</h3>
                             <p>Дизайн</p>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="./images/project-08.jpg" alt="" width="370">
+                            <img src="./images/project-08.jpg" alt="Бірка із надписом Lab el Tag" width="370">
                             <h3>Проект LAB</h3>
                             <p>Маркетинг</p>
                         </a>
                     </li>
                     <li>
                         <a href="">
-                            <img src="./images/project-09.jpg" alt="" width="370">
+                            <img src="./images/project-09.jpg" alt="Ноутбук із відкритим додатком" width="370">
                             <h3>Growing Business</h3>
                             <p>Додаток</p>
                         </a>
@@ -123,13 +128,12 @@
 
     <!-- Футер -->
     <footer>
-        <a href="./index.html">Web<span>Studio</span></a>
+        <a href="./index.html" class="logo">Web<span class="brand-color">Studio</span></a>
         <address>
             <p>м. Київ, пр-т Лесі Українки, 26</p>
             <p><a href="mailto:info@example.com">info@example.com</a></p>
             <p><a href="tel:+380961111111">+38 096 111 11 11</a></p>
         </address>
-
     </footer>
 
 </body>

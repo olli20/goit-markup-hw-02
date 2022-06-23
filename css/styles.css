@@ -1,11 +1,3 @@
-/*  колір лого 1 / акцент #2196F3 
-    колір лого 2 #000000 
-    колір заголовків #212121 
-    колір підписів #757575
-    колір темного фону #2F303A
-    колір світлого фону #F5F4FA  */
-
-
 :root {
     --brand-color: #2196F3;
     --black: #000000;
@@ -16,9 +8,11 @@
     --background-light: #F5F4FA;  
 }
 
-.page {
+body {
     background-color: #FFFFFF;
     color: var(--main-text);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
 }
 
 /* скидання стилів для списків */
@@ -26,25 +20,45 @@
     list-style: none;
 }
 
-
 /* лого */
 .logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
     color: var(--black);
     text-decoration: none;
 }
 
-.logo-second-color {
+.logo .brand-color {
     color: var(--brand-color);
 }
 
 /* навігація сайта */
-.site-nav {
-    
+.site-nav,
+.site-auth {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;  
 }
 
-.site-nav .active,
+.site-nav a {
+    text-decoration: none;
+    color: var(--main-text);
+}
+
+.site-auth a {
+    text-decoration: none;
+    color: var(--addition-text);
+}
+
+.site-nav .curent,
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-auth .link:hover,
+.site-auth .link:focus {
     color: var(--brand-color);
 }
 
@@ -55,21 +69,37 @@
 }
 
 .hero-title {
+    font-weight: 900;
     font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 
 /*  спільні стилі для секцій */
 .section-title {
-
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /*  наші переваги */
 .features .title {
-
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .features .description {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
     color: var(--addition-text);
 }
 
@@ -78,10 +108,18 @@
 /*  наша команда */
 
 .personalities .title {
-
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
 }
 
 .personalities .description {
+    font-size: 16px;
+    line-height: 19px;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
     color: var(--addition-text);
 }
 
@@ -91,13 +129,16 @@
 .filter button {
     color: var(--main-text);
     background-color: var(--background-light);
+    cursor: pointer;
 }
 
 /* змінює стиль поточної кнопки, кнопки при наведенні і фокусі */
 
-.filter .active,
+.filter .curent,
 .filter button:hover,
 .filter button:focus {
     color: var(--white);
     background-color: var(--brand-color);
 }
+
+/* Футер */
