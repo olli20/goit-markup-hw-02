@@ -1,0 +1,86 @@
+/*  колір лого 1 / акцент #2196F3 
+    колір лого 2 #000000 
+    колір заголовків #212121 
+    колір підписів #757575
+    колір темного фону #2F303A
+    колір світлого фону #F5F4FA  */
+
+
+:root {
+    --brand-color: #2196F3;
+    --black: #000000;
+    --white: #FFFFFF;
+    --main-text: #212121;
+    --addition-text: #757575;
+    --background-dark: #2F303A;
+    --background-light: #F5F4FA;  
+}
+
+.page {
+    background-color: #FFFFFF;
+    color: var(--main-text);
+}
+
+/* скидання стилів для списків */
+.list {
+    list-style: none;
+}
+
+
+/* лого */
+.logo {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.logo-second-color {
+    color: var(--brand-color);
+}
+
+/* навігація сайта */
+.site-nav {
+    
+}
+
+.site-nav .active,
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--brand-color);
+}
+
+/* герой */
+.hero {
+    background-color: var(--background-dark);
+    color: var(--white);
+}
+
+.hero-title {
+    font-size: 44px;
+}
+
+
+/*  спільні стилі для секцій */
+.section-title {
+
+}
+
+/*  наші переваги */
+.features .title {
+
+}
+
+.features .description {
+    color: var(--addition-text);
+}
+
+/*  наші проекти */
+
+/*  наша команда */
+
+.personalities .title {
+
+}
+
+.personalities .description {
+    color: var(--addition-text);
+}

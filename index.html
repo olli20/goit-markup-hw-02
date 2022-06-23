@@ -9,20 +9,23 @@
     <!-- Підключення стилів -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body class="page">
 
 <!-- Шапка -->
     <header>
         <nav>
-            <a href="./index.html">Web<span>Studio</span></a>
-            <ul>
-                <li><a href="./index.html">Студія</a></li>
-                <li><a href="./portfolio.html">Портфоліо</a></li>
-                <li><a href="./contacts.html">Контакти</a></li>
+            <div>
+                <a href="./index.html" class="logo">Web<span class="logo-second-color">Studio</span></a>
+            </div>
+            
+            <ul class="site-nav list">
+                <li><a href="./index.html" class="active">Студія</a></li>
+                <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+                <li><a href="./contacts.html" class="link">Контакти</a></li>
             </ul>
         </nav>
 
-        <ul>
+        <ul class="auth-nav list">
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
@@ -32,38 +35,38 @@
     <main>
 
         <!-- Герой -->
-        <section>
-                <h1>Ефективні рішення для вашого бізнесу</h1>
+        <section class="hero">
+                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
                 <button type="button">Замовити послугу</button>
         </section>
 
-        <!-- Список переваг -->
-        <section>
-            <h2>Наші переваги</h2>
-            <ul>
+        <!-- Наші переваги -->
+        <section class="section">
+            <h2 class="section-title">Наші переваги</h2>
+            <ul class="features list">
                 <li>
-                    <h3>Увага до деталей</h3>
-                    <p lang="zxx">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <h3 class="title">Увага до деталей</h3>
+                    <p lang="zxx" class="description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li>  
-                    <h3>Пунктуальність</h3>
-                    <p lang="zxx">Завдання організації, особливо ж рамки і місце навчання кадрів спричиняє.</p>
+                    <h3 class="title">Пунктуальність</h3>
+                    <p lang="zxx" class="description">Завдання організації, особливо ж рамки і місце навчання кадрів спричиняє.</p>
                 </li>
                 <li>
-                    <h3>Планування</h3>
-                    <p lang="zxx">Так само консультація з широким активом значно обумовлює.</p>
+                    <h3 class="title">Планування</h3>
+                    <p lang="zxx" class="description">Так само консультація з широким активом значно обумовлює.</p>
                 </li>
                 <li>
-                    <h3>Сучасні технології</h3>
-                    <p lang="zxx">Значимість цих проблем є настільки очевидною, що реалізація планових завдань.</p>
+                    <h3 class="title">Сучасні технології</h3>
+                    <p lang="zxx" class="description">Значимість цих проблем є настільки очевидною, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </section>
 
         <!-- Чим ми займаємось -->
-        <section>
-            <h2>Чим ми займаємось</h2>
-            <ul>
+        <section class="section">
+            <h2 class="section-title">Чим ми займаємось</h2>
+            <ul class="list">
                 <li><img src="./images/work1.jpg" alt="Сучасне робоче місце програміста" width="370"></li>
                 <li><img src="./images/work2.jpg" alt="Жінка працює над дизайном веб-додатку" width="370"></li>
                 <li><img src="./images/work3.jpg" alt="Людина вибирає колір з палітри кольорів на планшеті" width="370"></li>
@@ -71,28 +74,28 @@
         </section>
 
         <!-- Наша команда -->
-        <section>
-            <h2>Наша команда</h2>
-            <ul>
+        <section class="section">
+            <h2 class="section-title">Наша команда</h2>
+            <ul class="personalities list">
                 <li>
                     <img src="./images/igor-demianenko.jpg" alt="Фотографія Ігоря Дем'яненка" width="270">
-                    <h3>Ігор Дем'яненко</h3>
-                    <p lang="en">Product Designer</p>
+                    <h3 class="title">Ігор Дем'яненко</h3>
+                    <p lang="en" class="description">Product Designer</p>
                 </li>         
                 <li>
                     <img src="./images/olga-repina.jpg" alt="Фотографія Ольги Репіної" width="270">
-                    <h3>Ольга Репіна</h3>
-                    <p lang="en">Frontend Developer</p>
+                    <h3 class="title">Ольга Репіна</h3>
+                    <p lang="en" class="description">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/mykola-tarasov.jpg" alt="Фотографія Миколи Тарасова" width="270">
-                    <h3>Микола Тарасов</h3>
-                    <p lang="en">Marketing</p>
+                    <h3 class="title">Микола Тарасов</h3>
+                    <p lang="en" class="description">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/myhailo-yermakov.jpg" alt="Фотографія Михайла Єрмакова" width="270">
-                    <h3>Михайло Єрмаков</h3>
-                    <p lang="en">UI Designer</p>
+                    <h3 class="title">Михайло Єрмаков</h3>
+                    <p lang="en" class="description">UI Designer</p>
                 </li>
             </ul>
         </section>
