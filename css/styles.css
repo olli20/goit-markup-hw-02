@@ -84,3 +84,20 @@
 .personalities .description {
     color: var(--addition-text);
 }
+
+
+/* Портфоліо */
+
+.filter button {
+    color: var(--main-text);
+    background-color: var(--background-light);
+}
+
+/* змінює стиль поточної кнопки, кнопки при наведенні і фокусі */
+
+.filter .active,
+.filter button:hover,
+.filter button:focus {
+    color: var(--white);
+    background-color: var(--brand-color);
+}
