@@ -66,15 +66,26 @@ body {
 .hero {
     background-color: var(--background-dark);
     color: var(--white);
+    text-align: center;
 }
 
 .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+}
+
+.hero-button {
+    background-color: var(--brand-color);
+    color: var(--white);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.06em;
 }
 
 
@@ -107,18 +118,20 @@ body {
 
 /*  наша команда */
 
-.personalities .title {
+.persons-block {
+    text-align: center;
+}
+
+.persons .title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    /* text-align: center; */
     letter-spacing: 0.03em;
 }
 
-.personalities .description {
+.persons .description {
     font-size: 16px;
     line-height: 19px;
-    /* text-align: center; */
     letter-spacing: 0.03em;
     color: var(--addition-text);
 }
@@ -130,6 +143,12 @@ body {
     color: var(--main-text);
     background-color: var(--background-light);
     cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* змінює стиль поточної кнопки, кнопки при наведенні і фокусі */
