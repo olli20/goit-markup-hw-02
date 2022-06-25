@@ -43,14 +43,16 @@ body {
     letter-spacing: 0.02em;  
 }
 
-.site-nav a {
-    text-decoration: none;
+.site-nav .link {    
     color: var(--main-text);
 }
 
-.site-auth a {
-    text-decoration: none;
+.site-auth .link  {   
     color: var(--addition-text);
+}
+
+.link {
+    text-decoration: none;
 }
 
 .site-nav .curent,
@@ -59,13 +61,14 @@ body {
 .site-auth .link:hover,
 .site-auth .link:focus {
     color: var(--brand-color);
+    text-decoration: none;
 }
 
 /* Герой */
 .hero {
     background-color: var(--background-dark);
     color: var(--white);
-    /* text-align: center; */
+    text-align: center;
 }
 
 .hero-title {
@@ -88,16 +91,16 @@ body {
 }
 
 
-/*  Спільні стилі для секцій */
+/* Спільні стилі для секцій */
 .section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
 }
 
-/*  Наші переваги */
+/* Наші переваги */
 .features .title {
     font-weight: 700;
     font-size: 14px;
@@ -113,10 +116,12 @@ body {
     color: var(--addition-text);
 }
 
-/*  Наші проекти */
+.persons,
+.work {
+    text-align: center;
+}
 
-/*  Наша команда */
-
+/* Наша команда */
 .persons .title {
     font-weight: 500;
     font-size: 16px;
@@ -133,7 +138,6 @@ body {
 
 
 /* Портфоліо */
-
 .filter button {
     color: var(--main-text);
     background-color: var(--background-light);
@@ -142,12 +146,11 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
 }
 
 /* Змінює стиль поточної кнопки, кнопки при наведенні і фокусі */
-
 .filter .curent,
 .filter button:hover,
 .filter button:focus {
@@ -155,7 +158,11 @@ body {
     background-color: var(--brand-color);
 }
 
-.projects .title {
+.portfolio {
+    text-align: center;
+}
+
+.gallery .title {
     color: var(--main-text);
     font-weight: 700;
     font-size: 18px;
@@ -163,13 +170,13 @@ body {
     letter-spacing: 0.06em;
 }
 
-.projects .project-type {
+.gallery .project-type {
     color: var(--addition-text);
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.03em;
 }
 
-.projects a {
-    text-decoration: none;
-}
 
 /* Футер */
 .footer {
@@ -178,13 +185,7 @@ body {
 }
 
 .footer .logo {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
     color: var(--white);
-    text-decoration: none;
 }
 
 .footer-contacts {
@@ -196,6 +197,6 @@ body {
 }
 
 .footer-contacts a {
-    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
