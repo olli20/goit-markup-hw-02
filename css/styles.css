@@ -11,36 +11,37 @@
 body {
     background-color: #FFFFFF;
     color: var(--main-text);
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
 }
 
-/* скидання стилів для списків */
+/* Скидання стилів для списків */
 .list {
     list-style: none;
 }
 
-/* лого */
+.brand-color {
+    color: var(--brand-color);
+}
+
+/* Лого */
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--black);
     text-decoration: none;
 }
 
-.logo .brand-color {
-    color: var(--brand-color);
-}
 
-/* навігація сайта */
+
+/* Навігація сайта */
 .site-nav,
 .site-auth {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.14;
     letter-spacing: 0.02em;  
 }
 
@@ -62,7 +63,7 @@ body {
     color: var(--brand-color);
 }
 
-/* герой */
+/* Герой */
 .hero {
     background-color: var(--background-dark);
     color: var(--white);
@@ -72,7 +73,7 @@ body {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -89,20 +90,20 @@ body {
 }
 
 
-/*  спільні стилі для секцій */
+/*  Спільні стилі для секцій */
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
-/*  наші переваги */
+/*  Наші переваги */
 .features .title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -114,9 +115,9 @@ body {
     color: var(--addition-text);
 }
 
-/*  наші проекти */
+/*  Наші проекти */
 
-/*  наша команда */
+/*  Наша команда */
 
 .persons-block {
     text-align: center;
@@ -125,13 +126,13 @@ body {
 .persons .title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
 .persons .description {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--addition-text);
 }
@@ -151,7 +152,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-/* змінює стиль поточної кнопки, кнопки при наведенні і фокусі */
+/* Змінює стиль поточної кнопки, кнопки при наведенні і фокусі */
 
 .filter .curent,
 .filter button:hover,
@@ -160,4 +161,47 @@ body {
     background-color: var(--brand-color);
 }
 
+.projects .title {
+    color: var(--main-text);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects .project-type {
+    color: var(--addition-text);
+}
+
+.projects a {
+    text-decoration: none;
+}
+
 /* Футер */
+.footer {
+    background-color: var(--background-dark);
+    color: var(--white);
+}
+
+.footer .logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer-contacts {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.footer-contacts a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
