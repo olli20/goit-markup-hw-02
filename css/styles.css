@@ -196,7 +196,12 @@ body {
     letter-spacing: 0.03em;
 }
 
-.footer-contacts a {
+.footer-contacts .link {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-contacts .street {
+    color: white;
     text-decoration: none;
 }
