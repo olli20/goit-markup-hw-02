@@ -1,6 +1,7 @@
 /* This css file contains new classes structure */
 
 :root {
+    --primary-font: 'Roboto', sans-serif;
     --brand: #2196F3;
     --black: #000000;
     --white: #FFFFFF;
@@ -11,7 +12,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
     background-color: #FFFFFF;
     color: var(--main-text);
 }
