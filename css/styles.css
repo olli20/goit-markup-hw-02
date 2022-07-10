@@ -24,7 +24,7 @@ body {
     text-decoration: none;
 }
 
-/* NAVIGATION */
+/* ------- COMPONENTS ------- */
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -34,12 +34,18 @@ body {
     color: var(--brand);
 }
 
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+/* ------- / COMPONENTS ------- */
+
+/* ------- NAVIGATION ------- */
 .logo-header-secondcolor {
     color: var(--black);
-}
-
-.logo-footer-secondcolor {
-    color: var(--white);
 }
 
 .menu-link {
@@ -72,8 +78,9 @@ body {
 .contact-link:focus {
     color: var(--brand);
 }
+/* ------- / NAVIGATION ------- */
 
-/* HERO */
+/* ------- HERO ------- */
 .hero {
     background-color: var(--background-dark);
     color: var(--white);
@@ -98,18 +105,10 @@ body {
     line-height: 1.86;
     letter-spacing: 0.06em;
 }
+/* ------- / HERO ------- */
 
-/* SECTIONS */
 
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: center;
-}
-
-/* BENEFITS */
+/* ------- BENEFITS ------- */
 .benefits-subtitle {
     font-weight: 700;
     font-size: 14px;
@@ -124,11 +123,12 @@ body {
     letter-spacing: 0.03em;
     color: var(--addition-text);
 }
+/* ------- / BENEFITS ------- */
 
-/* WHAT DO WE DO */
+/* ------- WHAT DO WE DO ------- */
+/* ------- / WHAT DO WE DO ------- */
 
-
-/* TEAM */
+/* ------- TEAM ------- */
 .team-name {
     font-weight: 500;
     font-size: 16px;
@@ -142,8 +142,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--addition-text);
 }
+/* ------- / TEAM ------- */
 
-/* PORTFOLIO */
+/* ------- PORTFOLIO ------- */
 .portfolio {
     text-align: center;
 }
@@ -181,10 +182,15 @@ body {
     line-height: 1.86;
     letter-spacing: 0.03em;
 }
+/* ------- / PORTFOLIO ------- */
 
-/* FOOTER */
+/* ------- FOOTER ------- */
 .footer {
     background-color: var(--background-dark);
+}
+
+.logo-footer-secondcolor {
+    color: var(--white);
 }
 
 .address-link {
@@ -199,3 +205,4 @@ body {
 .street {
     color: var(--white);
 }
+/* ------- / FOOTER ------- */
