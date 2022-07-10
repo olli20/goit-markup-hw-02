@@ -55,7 +55,7 @@ body {
     color: var(--brand);
 }
 
-.curent {
+.menu-link.current {
     text-decoration: none;
     color: var(--brand);
 }
@@ -110,7 +110,7 @@ body {
 }
 
 /* BENEFITS */
-.benefits .subtitle {
+.benefits-subtitle {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -118,7 +118,7 @@ body {
     text-transform: uppercase;
 }
 
-.benefits .description {
+.benefits-descriptor {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -129,14 +129,14 @@ body {
 
 
 /* TEAM */
-.team .subtitle {
+.team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
-.team .description {
+.team-role {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -147,7 +147,8 @@ body {
 .portfolio {
     text-align: center;
 }
-.gallery-filter button {
+
+.filter-button {
     color: var(--main-text);
     background-color: var(--background-light);
     cursor: pointer;
@@ -159,9 +160,9 @@ body {
     letter-spacing: 0.03em;
 }
 
-.gallery-curent-filter,
-.gallery-filter button:hover,
-.gallery-filter button:focus {
+.filter-button.current,
+.filter-button:hover,
+.filter-button:focus {
     color: var(--white);
     background-color: var(--brand);
 }
