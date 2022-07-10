@@ -34,7 +34,7 @@ body {
     color: var(--brand);
 }
 
-.logo-header-secondcolor{
+.logo-header-secondcolor {
     color: var(--black);
 }
 
@@ -55,7 +55,7 @@ body {
     color: var(--brand);
 }
 
-.menu-link.current {
+.current-link {
     text-decoration: none;
     color: var(--brand);
 }
@@ -160,7 +160,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.filter-button.current,
+.current-filter-button,
 .filter-button:hover,
 .filter-button:focus {
     color: var(--white);
