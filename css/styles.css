@@ -50,7 +50,7 @@ body {
     color: var(--black);
 }
 
-.menu-link {
+.menu .link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -58,17 +58,16 @@ body {
     color: var(--main-text-color);
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu .link:hover,
+.menu .link:focus {
     color: var(--brand-color);
 }
 
-.current-link {
-    text-decoration: none;
+.menu .current {
     color: var(--brand-color);
 }
 
-.contact-link {
+.contact .link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -76,9 +75,9 @@ body {
     color: var(--addition-text-color);
 }
 
-.contact-link:hover,
-.contact-link:focus {
-    color: var(--brand);
+.contact .link:hover,
+.contact .link:focus {
+    color: var(--brand-color);
 }
 /* ------- / NAVIGATION ------- */
 
@@ -133,6 +132,9 @@ body {
 /* ------- / BENEFITS ------- */
 
 /* ------- WHAT DO WE DO ------- */
+.work {
+    text-align: center;
+}
 /* ------- / WHAT DO WE DO ------- */
 
 /* ------- TEAM ------- */
@@ -176,7 +178,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.current-filter-button,
+.gallery-filter .current,
 .filter-button:hover,
 .filter-button:focus {
     color: var(--white);
@@ -208,7 +210,7 @@ body {
     color: var(--white);
 }
 
-.address-link {
+.address .link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -217,7 +219,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.street {
+.address .kyiv-address {
     color: var(--white);
 }
 /* ------- / FOOTER ------- */
