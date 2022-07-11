@@ -58,12 +58,9 @@ body {
     color: var(--main-text-color);
 }
 
+.menu .current,
 .menu .link:hover,
 .menu .link:focus {
-    color: var(--brand-color);
-}
-
-.menu .current {
     color: var(--brand-color);
 }
 
